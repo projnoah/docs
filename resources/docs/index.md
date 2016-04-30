@@ -1,0 +1,7 @@
+- 设置
+    - [下载](/docs/download)
+    - [安装](/docs/installation)
+    - [配置](/docs/configuration)
+    - [初次使用](/docs/startup)
+- 贡献
+    - [提交建议/Bug](https://github.com/projnoah/noah/issues)

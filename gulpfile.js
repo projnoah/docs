@@ -1,4 +1,5 @@
 var elixir = require('laravel-elixir');
+elixir.sourcemaps = false;
 
 /*
  |--------------------------------------------------------------------------
@@ -12,5 +13,14 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.sass('app.scss');
+    mix.sass('app.scss', 'public/assets/css/noah.css');
+    mix.scripts([
+        'jquery.js',
+        'pace.min.js',
+        'prism.js',
+        'bootstrap.js',
+        'noah.js'
+    ], 'public/assets/js/noah.js');
+    
+    // mix.version(['assets/css/noah.css', 'assets/js/noah.js']);
 });

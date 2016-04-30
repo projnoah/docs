@@ -11,6 +11,16 @@
 |
 */
 
+/**
+ * Convert some text to Markdown...
+ */
+function markdown($text) {
+    return (new ParsedownExtra)->text($text);
+}
+
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('docs/{page?}', 'DocsController@show');
+Route::get('{page}', 'PagesController@show');

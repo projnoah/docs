@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Events;
+namespace Noah\Events;
 
 abstract class Event
 {
