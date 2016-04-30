@@ -23,7 +23,7 @@
 <hr>
 在解压后的目录下运行命令:
 ```bash
-php artisan key:generate && cp .env.example .env
+cp .env.example .env && php artisan key:generate
 ```
 
 <a name="github-installation"></a>
@@ -34,7 +34,7 @@ php artisan key:generate && cp .env.example .env
 使用Github下载后运行命令即可:
 ```bash
 composer install --no-scripts
-php artisan key:generate && cp .env.example .env
+cp .env.example .env && php artisan key:generate
 ```
 
 <a name="directory-permission"></a>
