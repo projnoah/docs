@@ -12,7 +12,7 @@
 <a name="direct-download-step-1"></a>
 #### 第一步
 <hr>
-点击链接下载: [ProjectNoah-v0.1.0.zip](/downloads/ProjectNoah-v0.1.0.zip)
+点击链接下载: [ProjectNoah-v0.1.0.zip](http://o6g6gbt9i.bkt.clouddn.com/downloads/ProjectNoah-v0.1.0.zip)
 
 <a name="direct-download-step-2"></a>
 #### 第二步
