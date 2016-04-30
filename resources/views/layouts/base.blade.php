@@ -8,7 +8,11 @@
     <meta name="canonical" content="https://docs.projnoah.com">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>@yield('title') :: Project Noah官方文档</title>
+    <title>
+        @unless(request()->is('/'))
+        @yield('title') ::
+        @endunless
+            Project Noah官方文档</title>
 
     <link href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/noah.css">
@@ -17,6 +21,9 @@
     <link rel="apple-touch-icon" href="/favicon.png">
     <link rel="apple-touch-icon-precomposed" href="/favicon.png">
     {{--<link rel="stylesheet" href="{!! elixir('assets/css/noah.css') !!}">--}}
+    <script>
+        var changeTitle = {{ request()->is('/') ? 'false' : 'true' }};
+    </script>
 </head>
 <body class="language-php">
 

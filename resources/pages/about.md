@@ -1,4 +1,4 @@
-# Project Noah
+# 关于 Project Noah
 ![Logo](https://dn-abletive.qbox.me/projnoah-108.png)
 
 ### 版本:

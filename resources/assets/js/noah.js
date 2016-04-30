@@ -1,5 +1,6 @@
 $(function () {
-    document.title = $("article h1").html() + titleAppender;
+    if (changeTitle == true)
+        document.title = $($("h1")[0]).html() + titleAppender;
     // Smooth scroll to anchor
     $('body a[href*=#]').click(function() {
         if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
