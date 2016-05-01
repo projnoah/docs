@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 # 配置
 
 - [服务器配置](#server-configurations)

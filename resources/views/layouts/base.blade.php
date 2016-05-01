@@ -21,9 +21,6 @@
     <link rel="apple-touch-icon" href="/favicon.png">
     <link rel="apple-touch-icon-precomposed" href="/favicon.png">
     {{--<link rel="stylesheet" href="{!! elixir('assets/css/noah.css') !!}">--}}
-    <script>
-        var changeTitle = {{ request()->is('/') ? 'false' : 'true' }};
-    </script>
 </head>
 <body class="language-php">
 
@@ -33,7 +30,6 @@
 
     @include('layouts.footer')
 
-    <script>var titleAppender = ' :: Project Noah官方文档';</script>
     <script src="/assets/js/noah.js" pjax-script></script>
 {{--    <script src="{{ elixir('assets/js/noah.js') }}"></script>--}}
 </body>

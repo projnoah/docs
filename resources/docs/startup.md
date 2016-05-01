@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 # 初次使用
 
 - [网站设置](#website-setup)

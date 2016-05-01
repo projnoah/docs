@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 # 下载
 
 - [直接下载](#direct-download)

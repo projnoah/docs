@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 # 安装
 
 - [安装程序](#installation)
