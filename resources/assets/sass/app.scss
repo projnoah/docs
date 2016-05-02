@@ -311,6 +311,17 @@ blockquote {
   }
 }
 
+@media (max-width:580px) {
+
+  .docs-container {
+    padding: 0 !important;
+  }
+
+  .main-navbar .container {
+    overflow: hidden !important;
+  }
+}
+
 footer.main-footer {
   background: linear-gradient(to bottom, $color__primary, $color__darker_primary);
   padding: 50px 15px;
@@ -341,6 +352,7 @@ footer.main-footer {
 
 .social {
   list-style: none;
+  padding: 0;
 
   li {
     display: inline-block;
